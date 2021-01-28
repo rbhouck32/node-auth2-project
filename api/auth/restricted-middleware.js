@@ -13,6 +13,6 @@ module.exports = (req, res, next) => {
       }
     });
   } else {
-    res.status(401).json("we wantz token");
+    res.status(401).json("You Shall not Pass!");
   }
 };
